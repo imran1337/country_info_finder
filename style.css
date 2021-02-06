@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d3959b;
+  background: -webkit-linear-gradient(to right, #bfe6ba, #d3959b);
+  background: linear-gradient(to right, #bfe6ba, #d3959b);
+  overflow-x: hidden;
+}
+
+input{
+    width: 250px !important;
+}
+
+#country_info{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+    max-width: 800px;
+    margin:0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    /* background-color: rgb(34, 117, 189); */
+    background-color: rgba(128, 128, 128, 0.297);
+}
